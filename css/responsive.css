@@ -1,0 +1,40 @@
+@media screen and (max-width: 768px){
+    .container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px){
+    
+    .container{
+        width: 100%;
+    }
+
+    .lessons .col{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    img{
+        width: 100%;
+    }
+
+    .row{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .steps .col{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .why-us .col-left{
+        margin-bottom: 50px;
+    }
+
+    .why-us .col-left, .why-us .col-right{
+        width: 100%;
+    }
+
+}
